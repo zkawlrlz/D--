@@ -402,11 +402,45 @@ a {
 }
 
 @media (max-width:629.98px) {
-  .sliders-container {
+  .sliders-container { 
     margin-bottom: 50px;
   }
   .pagination {
     top: 98%;
+  }
+  .ms--images .ms-slide__image-container {
+    width: 70%;
+    height: 70%;
+    transition: 0.5s;
+  }
+  .desc-slider{
+    width:100vw;
+  }
+  .ms__desc_p_m {
+    display: block;
+    margin: 15px 20px 0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+  }
+  .ms__desc_p {
+    display: none;
+  }
+}
+
+
+@media (max-width:629.98px) {
+  
+  .ms--titles.ms-container--vertical {
+    width: 375px;
+  }
+
+  .sliders-container { 
+    margin-bottom: 50px;
+  }
+  .pagination {
+    top: 98%;
+    
   }
   .ms--images .ms-slide__image-container {
     width: 70%;
