@@ -432,7 +432,7 @@ a {
 @media (max-width:629.98px) {
   
   .ms--titles.ms-container--vertical {
-    width: 375px;
+    width: 100vw;
   }
 
   .sliders-container { 
@@ -463,5 +463,42 @@ a {
   .pagination {
     bottom: -100px;
     top: unset;
-}
+  }
+
+
+  /*****/
+
+  .ms--titles .ms-slide {
+    width:100vw;
+  }
+  .ms--links .ms-slide {
+    width: 100vw;
+  }
+  .ms--titles.ms-container--vertical {
+    width: 100vw;
+  }
+  .ms--titles {
+    left: calc(50% - 50vw);
+  }
+  .ms--links {
+    left: calc(50% - 50vw);
+  }
+
+
+  .ms--images .ms-slide {
+    width:100vw;
+  }
+
+  .ms--images {
+    left:calc(50% - 50vw)
+  }
+  .ms--images .ms-slide__image-container {
+    width:100%;
+  }
+  .ms--images.ms-container--horizontal .ms-track {
+    left:0;
+  }
+  .ms--links.ms-container--vertical {
+    width:100vw;
+  }
 }
