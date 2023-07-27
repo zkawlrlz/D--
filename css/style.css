@@ -501,4 +501,23 @@ a {
   .ms--links.ms-container--vertical {
     width:100vw;
   }
+/*
+  .container {display: none;}
+  .mobile-popup {
+    position: relative;
+    z-index: 99999;
+    display:block;
+    width:100vw;
+    height:100vh;
+    background:white;
+  }
+  .mobile-popup-text {
+    color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+*/
 }
