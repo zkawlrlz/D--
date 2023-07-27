@@ -460,4 +460,8 @@ a {
   .ms__desc_p {
     display: none;
   }
+  .pagination {
+    bottom: -100px;
+    top: unset;
+}
 }
